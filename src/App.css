@@ -1,38 +1,202 @@
-.App {
+/* header style */
+.header-logo {
+  width: 35px;
+}
+
+header {
+  background-image: url("./assets/images/background-alcorprime-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-bg {
+  background-color: #0a2647;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--bs-navbar-active-color);
+  background-color: #ff4c29;
+  border-radius: 18px;
+}
+
+.box-1 {
+  background-color: #0a2647a1;
+}
+
+.box-1 .content_1 {
+  color: white;
+  width: 50%;
+  padding: 3em 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box-1 .content_2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 80%;
+  margin: auto;
   color: white;
+  padding-bottom: 3em;
+}
+.box-1 .content_2 div {
+  flex-basis: 33.3%;
+  border-bottom: 1px solid white;
+  margin: 1.2em;
+}
+.box-1 .content_2 img {
+  height: 50%;
+}
+.box-1 .content_2 p {
+  margin-top: 1em;
+  font-size: 0.8em;
 }
 
-.App-link {
-  color: #61dafb;
+/* main style */
+/* service */
+#service h2 {
+  margin-top: 1em;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.service-box {
+  display: flex;
 }
+.service-box-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.service-box_image {
+  width: 100%;
+}
+
+.service-box_content-1,
+.service-box_content-3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  flex-basis: 50%;
+  padding-right: 2em;
+  text-align: left;
+}
+
+.service-box_content-2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: right;
+  padding-left: 2em;
+  flex-basis: 50%;
+}
+
+.service-box_content-1 h4,
+.service-box_content-3 h4 {
+  margin-top: 1em;
+}
+.service-box_content-2 h4 {
+  margin-top: 2.5em;
+}
+
+/* company value */
+#company-values {
+  background-image: url("./assets/images/background-alcorprime-2.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 1em;
+}
+
+.bgcompany {
+  background-color: #ff4c29a1;
+}
+
+#company-values h2 {
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+}
+
+.value-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  padding: 2em 0;
+}
+
+.card-title {
+  text-align: center;
+  margin: 1em;
+}
+
+.card-text {
+  padding: 1em 1em 2em;
+  text-align: justify;
+}
+
+/* about us */
+#about-us h2 {
+  margin-top: 1em;
+  text-align: center;
+}
+
+/* contact info */
+#contact-info {
+  background-image: url("./assets/images/background-alcorprime-3.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 3em;
+}
+
+.bgcontact {
+  background-color: #0a2647a1;
+}
+
+#contact-info h2 {
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box_content {
+  color: white;
+  margin: 1em;
+}
+
+.contact-box_content li {
+  list-style: none;
+}
+
+.icon-size {
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+footer div {
+    border-top: 1px solid white;
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+
+.top-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin: 0.5em;
+  }
