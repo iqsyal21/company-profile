@@ -1,2 +1,1 @@
-## Available Scripts
-bisa dicoba akses : alcorprime-profile.netlify.app
+bisa dicoba akses : [https://alcorprime-profile.netlify.app/](https://alcorprime-profile.netlify.app/).
